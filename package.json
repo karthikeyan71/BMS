@@ -1,11 +1,13 @@
 {
-  "name": "BMS",
+  "name": "bms",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
-    "dev": "webpack-dashboard -- webpack-dev-server --open --mode development"
+    "start": "webpack-dashboard -- webpack-dev-server --open --mode development",
+    "starts": "webpack-dev-server --open --mode development",
+    "dev": "webpack-dashboard -- webpack-dev-server --open --mode development",
+    "build": ""
   },
   "author": "karthikeyan",
   "license": "ISC",
